@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/aad_db
+    username: user
+    password: pass
+    driver-class-name: org.postgresql.Driver
+
+app:
+  sql:
+    scripts:
+      - ddl/01_schema.sql
+      - ddl/02_procedures.sql
