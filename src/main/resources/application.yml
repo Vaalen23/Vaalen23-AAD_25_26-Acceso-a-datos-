@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/aad_db
+    username: user
+    password: pass
+    driver-class-name: org.postgresql.Driver
+
+  sql:
+    init:
+      mode: always
+      schema-locations:
+        - classpath:sql/ddl/01_schema.sql
+        - classpath:sql/ddl/02_procedures.sql
+      data-locations:
+        - classpath:sql/ddl/03_sample_data.sql
+      encoding: UTF-8
+
+logging:
+  level:
+    org.springframework.jdbc.core: DEBUG
