@@ -1,0 +1,25 @@
+[ {
+  "id" : 1,
+  "nombre" : "Valentin",
+  "nota" : 8.5
+}, {
+  "id" : 2,
+  "nombre" : "Paco",
+  "nota" : 6.7
+}, {
+  "id" : 3,
+  "nombre" : "Vito",
+  "nota" : 9.0
+}, {
+  "id" : 4,
+  "nombre" : "Ruben",
+  "nota" : 7.4
+}, {
+  "id" : 5,
+  "nombre" : "Carlos",
+  "nota" : 8.2
+}, {
+  "id" : 6,
+  "nombre" : "Kiko",
+  "nota" : 6.9
+} ]

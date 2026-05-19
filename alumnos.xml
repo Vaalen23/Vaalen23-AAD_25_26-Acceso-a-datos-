@@ -1,0 +1,32 @@
+<alumnos>
+  <alumno>
+    <id>1</id>
+    <nombre>Valentin</nombre>
+    <nota>8.5</nota>
+  </alumno>
+  <alumno>
+    <id>2</id>
+    <nombre>Paco</nombre>
+    <nota>6.7</nota>
+  </alumno>
+  <alumno>
+    <id>3</id>
+    <nombre>Vito</nombre>
+    <nota>9.0</nota>
+  </alumno>
+  <alumno>
+    <id>4</id>
+    <nombre>Ruben</nombre>
+    <nota>7.4</nota>
+  </alumno>
+  <alumno>
+    <id>5</id>
+    <nombre>Carlos</nombre>
+    <nota>8.2</nota>
+  </alumno>
+  <alumno>
+    <id>6</id>
+    <nombre>Kiko</nombre>
+    <nota>6.9</nota>
+  </alumno>
+</alumnos>
