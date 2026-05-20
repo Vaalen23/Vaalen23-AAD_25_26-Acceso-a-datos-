@@ -1,0 +1,10 @@
+.idea/
+.vs/
+target/
+*.iml
+*.log
+
+str-consumer/target/
+str-producer/target/
+
+.mvn/wrapper/maven-wrapper.jar
