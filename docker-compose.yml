@@ -1,8 +1,6 @@
-version: '3.9'
-
 services:
   db:
-    image: postgres:latest
+    image: postgres:15
     container_name: aad_db_container
     restart: always
     environment:
@@ -10,7 +8,7 @@ services:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: pass
     ports:
-      - "5433:5432"
+      - "5434:5432"
     volumes:
       - db_data:/var/lib/postgresql/data
 
